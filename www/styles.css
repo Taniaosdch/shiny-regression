@@ -1,0 +1,83 @@
+/* ./examples/06-layout_themes_html-css_example/www/style.css */
+
+/* logo text design*/
+.main-header .logo {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
+/* colors */
+
+/* logo */
+.skin-blue .main-header .logo {
+background-color: #ee712b;
+}
+
+/* logo when hovered */
+.skin-blue .main-header .logo:hover {
+  background-color: #ffe8d6;
+}
+                                
+
+/* navbar (rest of the header, horisontal upper bar) */
+.skin-blue .main-header .navbar {
+  background-color: #ee712b;
+}        
+
+/* toggle button when hovered  */
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+  background-color: #ffe8d6;
+}
+
+/* main sidebar */
+.skin-blue .main-sidebar {
+  background-color: #ee712b;
+}
+
+
+ /* active selected tab in the sidebarmenu */
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+  background-color: #ee712b;
+}
+                                
+ /* other links in the sidebarmenu */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a{
+  background-color: #ee712b;
+  color: #ffffff; /* text */
+}
+                                
+/* other links in the sidebarmenu when hovered */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+  background-color: #ffe8d6;
+}
+                                
+/* body */
+.content-wrapper, .right-side {
+    background-color: #f9f6f7;
+}
+
+/* button to collaple the box */
+.box-tools .btn {
+       background: #ffe8d6;
+       color: #ffffff;
+}
+
+/* background box */
+.box {
+       background: #ffffff;
+       color: #ee712b;
+       border-radius: 3px;
+       border-top: 3px solid #d2d6de; /*  gray */
+       box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.block {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+/* main background colour*/
+.skin-blue .content-wrapper {background-color: #FFFFFF}
